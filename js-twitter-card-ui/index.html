@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href='https://fonts.googleapis.com/css?family=Lato:400' rel='stylesheet'>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>Twitter Card UI</title>
+</head>
+<body>
+    <div class="container">
+        <header class="header">
+            <img class="img-border-bottom" src="https://picsum.photos/320/200?random=1&blur=2" alt="background">
+            <div class="avatar-container">
+                <img class="avatar" src="https://randomuser.me/api/portraits/lego/1.jpg" alt="avatar">
+            </div>      
+        </header>      
+        <div class="data">
+            <div class="flex-container">
+                <span>777</span>
+                <span class="span-width" data-followers>
+                    <span>100,</span><span>500</span>
+                </span>
+            </div>
+            <div class="flex-container">
+                <span>Tweets</span>
+                <span>Followers</span>
+            </div>
+        </div>        
+        <button class="button" data-button>Follow</button>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

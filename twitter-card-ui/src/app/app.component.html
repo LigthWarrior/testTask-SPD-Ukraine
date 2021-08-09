@@ -1,0 +1,37 @@
+
+<div class="container">
+    <header class="header">
+        <img
+          class="img-border-bottom"
+          src="https://picsum.photos/320/200?random=1&blur=2"
+          alt="background"
+        >
+        <div class="avatar-container">
+            <img
+              class="avatar"
+              src="../assets/images/avatar.jpg"
+              alt="avatar"
+            >
+        </div>
+    </header>
+    <div class="data">
+        <div class="flex-container">
+            <span>777</span>
+            <span class="span-width">
+                <span>100,</span>
+                <span>{{ dataFollowers }}</span>
+            </span>
+        </div>
+        <div class="flex-container">
+            <span>Tweets</span>
+            <span>Followers</span>
+        </div>
+    </div>
+  <button
+    class="button"
+    [class.button-green]='followed'
+    (click)="onClick()"
+  >
+  {{ textButton }}
+  </button>
+</div>
