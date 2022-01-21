@@ -7,7 +7,7 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   followed: boolean = false;
-  dataFollowers: number = 500;
+  dataFollowers: number = 100500;
   textButton: string = 'follow';
 
   onClick() {
