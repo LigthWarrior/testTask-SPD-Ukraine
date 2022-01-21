@@ -86,6 +86,6 @@
     transition-duration: .3s;
 }
 
-.button:hover {    
+.button:hover {
     cursor: pointer;
 }
